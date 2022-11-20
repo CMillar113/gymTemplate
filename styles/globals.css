@@ -1,0 +1,54 @@
+:root{
+  --primaryBackground-color:#191617;
+  --navBarColour:#EAEAEA;
+  --secondaryBackground-color:#EAEAEA;
+  --primaryFontColor:white;
+  --specialFontColor:#AD974F;
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.defaultLayout{
+  background-color:var(--secondaryBackground-color);
+  color: var(--primaryFontColor);
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontLayer{
+  border-radius: 10px;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  box-shadow: 0 0 100px var(--primaryBackground-color);
+  background-color:var(--primaryBackground-color);
+  color: var(--primaryFontColor);
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+@media (max-width: 600px) {
+  .defaultLayout {
+    width: 100%;
+    flex-direction: column;
+  }
+}

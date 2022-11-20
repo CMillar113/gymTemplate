@@ -1,0 +1,26 @@
+.bar{
+    overflow: hidden;
+    background-color: var(--specialFontColor);
+    width: 100%;
+    border-radius: 10px;
+}
+.bar a{ 
+    float: left;
+    color: var(--primaryFont-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+.bar a:hover{
+    background-color: var(--primaryBackground-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
