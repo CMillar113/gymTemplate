@@ -1,5 +1,5 @@
-import Link from "next/link";
-import styles from "../../styles/NavBar.module.css";
+import Link from "next/link"
+import styles from "../../styles/NavBar.module.css"
 
 export default function NavBar() {
   return (
@@ -7,10 +7,10 @@ export default function NavBar() {
       <a class="active" href="/">
         Home
       </a>
-      <a href="/tour">Facility Tour</a>
-      <a href="/personalTrainers">Personal Trainers</a>
-      <a href="/community">Community</a>
-      <a href="/shop">Shop</a>
+      <a href="/">Facility Tour</a>
+      <a href="/">Personal Trainers</a>
+      <a href="/">Community</a>
+      <a href="/">Shop</a>
     </div>
-  );
+  )
 }
