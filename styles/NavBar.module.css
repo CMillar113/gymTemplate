@@ -24,3 +24,11 @@
     background-color: #04AA6D;
     color: white;
   }
+
+  @media (max-width: 550px) {
+    .bar a{ 
+      display: block;
+      float: none;
+      padding: 4px;
+    }
+  }

@@ -7,10 +7,9 @@ export default function NavBar() {
       <a class="active" href="/">
         Home
       </a>
-      <a href="/">Facility Tour</a>
-      <a href="/">Personal Trainers</a>
-      <a href="/">Community</a>
-      <a href="/">Shop</a>
+      <a href="/facility">Facility Tour</a>
+      <a href="/personalTrainers">Personal Trainers</a>
+      {/* <a href="/shop">Shop</a> */}
     </div>
   )
 }
