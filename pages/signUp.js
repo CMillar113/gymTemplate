@@ -14,7 +14,7 @@ export default function signUp() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <form className={styles.form} action="/" method="post">
+              <form className={styles.form} action="/signUp" method="post">
                 <label for="first">First name:</label>
                 <input
                   type="text"
