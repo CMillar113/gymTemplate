@@ -1,7 +1,14 @@
+import { router } from "next/router"
 import Header from "../src/components/Header"
 import styles from "../styles/signUp.module.css"
 //Signup page welcoming new members and register for membership
 export default function signUp() {
+  const href = "https://gym-template-cmillar113.vercel.app"
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    router.push(href)
+  }
   return (
     <>
       <div>
@@ -14,7 +21,7 @@ export default function signUp() {
 
           <div className={styles.grid}>
             <div className={styles.card}>
-              <form className={styles.form} action="/signUp" method="post">
+              <form className={styles.form} method="post">
                 <label for="first">First name:</label>
                 <input
                   type="text"
@@ -46,7 +53,9 @@ export default function signUp() {
                   maxlength="15"
                 />
                 <br />
-                <button type="submit">Submit</button>
+                <button type="submit" onClick={handleSubmit}>
+                  Submit
+                </button>
               </form>
             </div>
           </div>
