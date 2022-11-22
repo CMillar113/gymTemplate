@@ -30,5 +30,8 @@
       display: block;
       float: none;
       padding: 4px;
+      border: var(--primaryBackground-color);
+      border-top-width: 1px;
+      border-style: solid;
     }
   }
