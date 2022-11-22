@@ -43,7 +43,7 @@ export default function signUp() {
                 <label for="DOB">Date of Birth:</label>
                 <input type="Date" id="DOB" name="DOB" required />
                 <br />
-                <label for="num">Number:</label>
+                {/* <label for="num">Number:</label>
                 <input
                   type="number"
                   id="num"
@@ -51,7 +51,7 @@ export default function signUp() {
                   required
                   minlength="11"
                   maxlength="15"
-                />
+                /> */}
                 <br />
                 <button type="submit" onClick={handleSubmit}>
                   Submit
