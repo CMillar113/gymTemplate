@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div className="defaultLayout">
       <div className="frontLayer">
         <NavBar />
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
         <Footer />
       </div>
     </div>

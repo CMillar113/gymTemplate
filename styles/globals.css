@@ -41,6 +41,12 @@ body {
   
 }
 
+@media (max-width: 550px) {
+  .frontLayer {
+    width: 100%;
+  }
+}
+
 
 /* * {
   box-sizing: border-box;
