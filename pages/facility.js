@@ -14,16 +14,25 @@ export default function facility() {
           <div className={styles.car}>
             <Carousel>
               <div>
-                <img src="/image1.jpeg" alt="image1" />
+                <img src="/image1.jpg" alt="image1" />
               </div>
               <div>
-                <img src="/image2.jpeg" alt="image2" />
+                <img src="/image2.jpg" alt="image2" />
               </div>
               <div>
-                <img src="/image3.jpeg" alt="image3" />
+                <img src="/image5.jpg" alt="image3" />
               </div>
               <div>
-                <img src="/image4.jpeg" alt="image4" />
+                <img src="/image6.jpg" alt="image4" />
+              </div>
+              <div>
+                <img src="/image7.jpg" alt="image4" />
+              </div>
+              <div>
+                <img src="/image8.jpg" alt="image4" />
+              </div>
+              <div>
+                <img src="/image9.jpg" alt="image4" />
               </div>
             </Carousel>
           </div>
